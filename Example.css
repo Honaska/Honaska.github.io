@@ -84,3 +84,56 @@ button:active{
 p{
     font-weight: bold;
 }
+
+.display_button{
+    color: black;
+    background-color:rgb(116, 49, 60);
+    padding-right: 30px;
+   padding-left: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
+}
+
+#Display1{
+    text-align: center;
+}
+
+.size_button{
+    color: black;
+    background-color:rgb(116, 49, 60);
+    padding-right: 30px;
+   padding-left: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
+}
+
+#Size1{text-align: center;}
+
+.position_button{
+    color: black;
+    background-color:rgb(116, 49, 60);
+    padding-right: 30px;
+   padding-left: 30px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
+}
+
+#position1{
+    text-align: center;
+}
+
