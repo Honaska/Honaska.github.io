@@ -1,6 +1,7 @@
 h1{ font-weight: bold;
 font-family: Arial;
 text-align: center;
+font-size: 30px;
 }
 
 .Stan{
@@ -31,7 +32,7 @@ a{
     border-color: black;
     height: 300px;
     width: auto;
-    
+    margin-bottom: 20px;
 }
 .Model_Botton{
     color: black;
@@ -58,6 +59,7 @@ button:active{
 
 #container{
     text-align: center;
+    
 }
 #OnlineCV{
     text-align: center;
@@ -83,6 +85,8 @@ button:active{
 }
 p{
     font-weight: bold;
+    font-family: Baloo;
+    font-size: 15px;
 }
 
 .display_button{
@@ -155,3 +159,7 @@ p{
     text-align: center;
 }
 
+div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
