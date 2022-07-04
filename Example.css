@@ -16,6 +16,7 @@ font-size: 30px;
     padding: 22px;
     height: 100px;
     width: auto;
+    background-color:rgb(140, 13, 154) ;
 } 
 a{ 
     font-style: normal;
@@ -36,7 +37,7 @@ a{
 }
 .Model_Botton{
     color: black;
-    background-color:rgb(116, 49, 60);
+    background-color:rgb(211, 60, 166);
     padding-right: 30px;
    padding-left: 30px;
    padding-top: 15px;
@@ -66,7 +67,7 @@ button:active{
 }
 .online_button{
     color: black;
-    background-color:rgb(116, 49, 60);
+    background-color:rgb(211, 60, 166);
     padding-right: 30px;
    padding-left: 30px;
    padding-top: 15px;
@@ -91,7 +92,7 @@ p{
 
 .display_button{
     color: black;
-    background-color:rgb(116, 49, 60);
+    background-color:rgb(211, 60, 166);
     padding-right: 30px;
    padding-left: 30px;
    padding-top: 15px;
@@ -109,7 +110,7 @@ p{
 
 .size_button{
     color: black;
-    background-color:rgb(116, 49, 60);
+    background-color:rgb(211, 60, 166);
     padding-right: 30px;
    padding-left: 30px;
    padding-top: 15px;
@@ -118,14 +119,14 @@ p{
     cursor: pointer;
     font-weight: bold;
     font-size: 15px;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, .15);
+    box-shadow: 3px 3px 3px rgb(211, 60, 166);
 }
 
 #Size1{text-align: center;}
 
 .position_button{
     color: black;
-    background-color:rgb(116, 49, 60);
+    background-color:rgb(211, 60, 166);
     padding-right: 30px;
    padding-left: 30px;
    padding-top: 15px;
@@ -143,7 +144,7 @@ p{
 
 .float_button{
     color: black;
-    background-color:rgb(116, 49, 60);
+    background-color:rgb(211, 60, 166);
     padding-right: 30px;
    padding-left: 30px;
    padding-top: 15px;
@@ -162,4 +163,10 @@ p{
 div{
     margin-bottom: 20px;
     margin-top: 20px;
+}
+body{
+    background-image: url('./original.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
