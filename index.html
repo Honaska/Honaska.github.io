@@ -1,13 +1,110 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head></head>
-    <body>
-        <li><a href="About me.html">About me </a></li>
-        <li><a href="basta.html">Educational Background</a></li>
-        <li><a href="Skills.html">Skills</a></li>
-        <li>Portfolio</li>
-        <li>Contact</li>
-        <img src="me.jpg" alt="Loading Puto">
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocktim Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100px;
+        }
+        
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        img{
+            border-radius: 50% 50% 50% 50%;
+            width: 70px;
+            height: 70px;
+        }
+
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav li {
+            margin-left: 20px;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1em;
+        }
+
+        .content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .content p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+
+        .content h1 {
+            font-size: 4em;
+            margin: 10px 0;
+            letter-spacing: 5px;
+        }
+
+        .content hr {
+            width: 100px;
+            border: 2px solid gold;
+            margin: 20px auto;
+        }
+
+        .content h2 {
+            font-size: 1.5em;
+            font-weight: normal;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><img src="Logo.png" alt="LOGO"></div>
+        <nav>
+            <ul>
+                <li><a href="About me.html">ABOUT</a></li>
+                <li><a href="basta.html">PROJECTS</a></li>
+                <li><a href="Contacts.html">CONTACT</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <p>HI I'M</p>
+        <h1>JAMES RYAN TANTOY</h1>
+        <hr>
+        <h2>IT STUDENT</h2>
+    </div>
+
+    <div class = 'Social medias'>
+        <a href="https://web.facebook.com/afreakdoctor"><img src="facebook-logo-black-2019.png" alt="Facebook"></a>
+        <a href=""><img src="images.png" alt="Instagram"></a>
+    </div>
+</body>
 </html>
